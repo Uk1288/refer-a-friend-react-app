@@ -8,14 +8,13 @@ export const parseError = error => {
   return error;
 };
 
-export const makeApiRequest = function({ method, url, data, ...others }) {
-  return axios.request({
+export const makeApiRequest = ({ method, url, data, ...others }) =>
+  axios.request({
     method,
     baseURL: BACKEND_ENDPOINT,
     url,
     data,
     ...others,
   });
-};
 
 export default makeApiRequest;

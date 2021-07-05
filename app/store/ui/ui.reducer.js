@@ -12,10 +12,7 @@ const initialReferralEmailState = {
   error: undefined,
 };
 
-const referralEmailReducer = function(
-  state = initialReferralEmailState,
-  action,
-) {
+const referralEmailReducer = (state = initialReferralEmailState, action) => {
   switch (action.type) {
     case SEND_REFERRAL_EMAIL_PENDING:
       return { status: STATUS.PENDING, error: undefined };

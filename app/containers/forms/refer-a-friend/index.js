@@ -104,7 +104,7 @@ const initialValues = {
   email: '',
 };
 
-export const ReferAFriendForm = function({
+export const ReferAFriendForm = function ReferAFriendForm({
   handleEmailReferral,
   referralIsPending,
   referralSucceeded,

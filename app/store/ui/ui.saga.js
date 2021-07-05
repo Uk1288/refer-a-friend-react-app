@@ -11,7 +11,9 @@ import {
   POST,
 } from '../../constants/global-constants';
 
-export const sendReferralEmailListener = function*({ payload }) {
+export const sendReferralEmailListener = function* sendReferralEmailListener({
+  payload,
+}) {
   yield put(sendReferralEmailPending());
   try {
     yield call(makeApiRequest, {
