@@ -166,10 +166,12 @@ export const ReferAFriendForm = function ReferAFriendForm({
           <StyledErrorText>{formik.errors.email}</StyledErrorText>
         )}
         {referralFailed && referralErrorMsg && (
-          <StyledErrorText>{referralErrorMsg}</StyledErrorText>
+          <StyledErrorText id="referral-error-msg">
+            {referralErrorMsg}
+          </StyledErrorText>
         )}
         {referralSucceeded && (
-          <StyledSuccessText>
+          <StyledSuccessText id="referral-success-msg">
             <FormattedMessage {...messages.emailSentSuccess} />
           </StyledSuccessText>
         )}
@@ -189,7 +191,7 @@ ReferAFriendForm.propTypes = {
 
 export const mapDispatchToProps = dispatch => ({
   handleEmailReferral: payload => dispatch(sendReferralEmail(payload)),
-  resetEmailReferralStatus: payload => dispatch(resetReferralEmail(payload)),
+  resetEmailReferralStatus: () => dispatch(resetReferralEmail()),
 });
 
 export const mapStateToProps = state => ({

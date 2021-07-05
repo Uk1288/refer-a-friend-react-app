@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Summary /> should render and match the snapshot 1`] = `
+<h1
+  class="summary__StyledSummary-sc-1spj6xq-0 hOYGGb"
+>
+  <span>
+    Refer your friends to ClassRT for you to both receive a 20% discount on your
+    next purchased class. Your code will be sent to you once your referrals complete 
+    their first purchase. Happy learning!
+  </span>
+</h1>
+`;

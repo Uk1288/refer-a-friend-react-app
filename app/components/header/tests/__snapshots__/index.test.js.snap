@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> should render and match the snapshot 1`] = `
+<h1
+  class="header__StyledHeader-sc-1mu6x1k-0 griTSl"
+>
+  <span>
+    Refer a friend
+  </span>
+</h1>
+`;

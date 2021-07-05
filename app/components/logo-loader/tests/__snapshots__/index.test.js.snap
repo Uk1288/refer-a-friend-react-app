@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LogoLoader /> should render and match the snapshot 1`] = `
+<div>
+  <div
+    class="logo-loader__StyledImageParent-sc-1r2a1aj-1 brbqgv"
+  >
+    <img
+      alt="Refer a friend logo"
+      class="logo-loader__StyledImage-sc-1r2a1aj-0 dZGvMc"
+      src="IMAGE_MOCK"
+    />
+  </div>
+</div>
+`;

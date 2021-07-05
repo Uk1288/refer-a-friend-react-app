@@ -1,9 +1,71 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<HomePage /> should render and match the snapshot 1`] = `
-<h1>
-  <span>
-    This is the HomePage container!
-  </span>
-</h1>
+<div
+  class="HomePage__ParentDiv-sc-1dwbuoi-0 jaZlZw"
+>
+  <h1
+    class="header__StyledHeader-sc-1mu6x1k-0 griTSl"
+  >
+    <span>
+      Refer a friend
+    </span>
+  </h1>
+  <h1
+    class="subheader__StyledSubHeader-sc-1ur12bv-0 fByRsJ"
+  >
+    <span>
+      Invite friends, get discount code
+    </span>
+  </h1>
+  <h1
+    class="summary__StyledSummary-sc-1spj6xq-0 hOYGGb"
+  >
+    <span>
+      Refer your friends to ClassRT for you to both receive a 20% discount on your
+    next purchased class. Your code will be sent to you once your referrals complete 
+    their first purchase. Happy learning!
+    </span>
+  </h1>
+  <div>
+    <form>
+      <div
+        class="refer-a-friend__StyledEmailText-sc-16r8705-0 hDQkIh"
+      >
+        <span>
+          Enter email address
+        </span>
+      </div>
+      <div
+        class="refer-a-friend__StyledInputBox-sc-16r8705-3 NLXzZ"
+      >
+        <input
+          class="refer-a-friend__StyledInput-sc-16r8705-1 iFZMMH"
+          id="email"
+          name="email"
+          value=""
+        />
+        <button
+          class="refer-a-friend__StyledButton-sc-16r8705-2 fBvTgs"
+          type="submit"
+        >
+          <span>
+            Send
+          </span>
+        </button>
+      </div>
+    </form>
+  </div>
+  <div>
+    <div
+      class="logo-loader__StyledImageParent-sc-1r2a1aj-1 brbqgv"
+    >
+      <img
+        alt="Refer a friend logo"
+        class="logo-loader__StyledImage-sc-1r2a1aj-0 dZGvMc"
+        src="IMAGE_MOCK"
+      />
+    </div>
+  </div>
+</div>
 `;
