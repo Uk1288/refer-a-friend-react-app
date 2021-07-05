@@ -1,10 +1,10 @@
 {
-  "name": "react-boilerplate",
+  "name": "refer-a-friend-react-app",
   "version": "4.0.0",
-  "description": "A highly scalable, offline-first foundation with the best DX and a focus on performance and best practices",
+  "description": "A test app for referring a friend",
   "repository": {
     "type": "git",
-    "url": "git://github.com/react-boilerplate/react-boilerplate.git"
+    "url": ""
   },
   "engines": {
     "npm": ">=5",
@@ -65,12 +65,14 @@
   },
   "dependencies": {
     "@babel/polyfill": "7.4.3",
+    "axios": "^0.21.1",
     "chalk": "^2.4.2",
     "compression": "1.7.4",
     "connected-react-router": "6.4.0",
     "cross-env": "5.2.0",
     "express": "4.16.4",
     "fontfaceobserver": "2.1.0",
+    "formik": "^2.2.9",
     "history": "4.9.0",
     "hoist-non-react-statics": "3.3.0",
     "immer": "3.0.0",
@@ -90,7 +92,8 @@
     "redux-saga": "1.0.2",
     "reselect": "4.0.0",
     "sanitize.css": "8.0.0",
-    "styled-components": "4.2.0"
+    "styled-components": "4.2.0",
+    "yup": "^0.26.10"
   },
   "devDependencies": {
     "@babel/cli": "7.4.3",
