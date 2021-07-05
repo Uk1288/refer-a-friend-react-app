@@ -1,18 +1,27 @@
-/*
- * HomePage
- *
- * This is the first thing users see of our App, at the '/' route
- *
- */
-
 import React from 'react';
-import { FormattedMessage } from 'react-intl';
-import messages from './messages';
+import styled from 'styled-components';
+import Header from '../../components/header/index';
+import SubHeader from '../../components/subheader/index';
+import Summary from '../../components/summary/index';
+import ReferAFriendForm from '../forms/refer-a-friend/index';
+import LogoLoader from '../../components/logo-loader/index';
+
+const ParentDiv = styled.div`
+  margin: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 367px;
+`;
 
 export default function HomePage() {
   return (
-    <h1>
-      <FormattedMessage {...messages.header} />
-    </h1>
+    <ParentDiv>
+      <Header />
+      <SubHeader />
+      <Summary />
+      <ReferAFriendForm />
+      <LogoLoader />
+    </ParentDiv>
   );
 }

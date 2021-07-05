@@ -16,9 +16,12 @@ const GlobalStyle = createGlobalStyle`
   }
 
   #app {
-    background-color: #fafafa;
-    min-height: 100%;
-    min-width: 100%;
+    background-color: #FFFFFF;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
   }
 
   p,
