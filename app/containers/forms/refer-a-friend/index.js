@@ -6,13 +6,7 @@ import * as yup from 'yup';
 import { useFormik } from 'formik';
 import { connect } from 'react-redux';
 import messages from './messages';
-import {
-  APP_GREY_04,
-  APP_GREEN,
-  APP_WHITE,
-  APP_GREY_01,
-  APP_RED,
-} from '../../../constants/color-constants';
+import { APP_GREY_04 } from '../../../constants/color-constants';
 import {
   sendReferralEmail,
   resetReferralEmail,
@@ -23,6 +17,10 @@ import {
   isReferralFailure,
   getReferralErrorMsg,
 } from '../../../store/ui/ui.selector';
+import StyledButton from '../../../components/button/index';
+import StyledInput from '../../../components/input/index';
+import StyledErrorText from '../../../components/error-text/index';
+import StyledSuccessText from '../../../components/success-text';
 
 const StyledEmailText = styled.div`
   font-weight: 400;
@@ -33,64 +31,8 @@ const StyledEmailText = styled.div`
   color: ${APP_GREY_04};
 `;
 
-const StyledInput = styled.input`
-  height: 36px;
-  width: 343px;
-  background-color: ${APP_GREY_01};
-  border-radius: 24px;
-  border: none;
-  padding: 0px 68px 0px 10px;
-  & :focus-visible {
-    outline: none;
-    border: solid ${APP_GREEN} 2px;
-  }
-  @media only screen and (min-width: 600px) {
-    width: 496px;
-  }
-`;
-
-const StyledButton = styled.button`
-  height: 28px;
-  background: ${APP_GREEN};
-  border-radius: 20px;
-  border: none;
-  color: ${APP_WHITE};
-  position: absolute;
-  right: 4px;
-  top: 4px;
-  width: 64px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  & span {
-    font-family: Roboto;
-    font-style: normal;
-    font-size: 12px;
-    line-height: 16px;
-  }
-`;
-
 const StyledInputBox = styled.div`
   position: relative;
-`;
-
-const StyledErrorText = styled.div`
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 16px;
-  font-style: normal;
-  font-family: 'Roboto', sans-serif;
-  color: ${APP_RED};
-`;
-
-const StyledSuccessText = styled.div`
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 16px;
-  font-style: normal;
-  font-family: 'Roboto', sans-serif;
-  color: ${APP_GREEN};
 `;
 
 const validationSchema = yup.object({

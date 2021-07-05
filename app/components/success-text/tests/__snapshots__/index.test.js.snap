@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<StyledSuccessText /> should render and match the snapshot 1`] = `
+<div
+  class="success-text__StyledSuccessText-sc-1s4cqm3-0 fHzWJC"
+/>
+`;

@@ -37,16 +37,16 @@ exports[`<HomePage /> should render and match the snapshot 1`] = `
         </span>
       </div>
       <div
-        class="refer-a-friend__StyledInputBox-sc-16r8705-3 NLXzZ"
+        class="refer-a-friend__StyledInputBox-sc-16r8705-1 Qzlag"
       >
         <input
-          class="refer-a-friend__StyledInput-sc-16r8705-1 iFZMMH"
+          class="input__StyledInput-sc-10zxn30-0 glFmJb"
           id="email"
           name="email"
           value=""
         />
         <button
-          class="refer-a-friend__StyledButton-sc-16r8705-2 fBvTgs"
+          class="button__StyledButton-sc-1bg6su4-0 hygGZF"
           type="submit"
         >
           <span>

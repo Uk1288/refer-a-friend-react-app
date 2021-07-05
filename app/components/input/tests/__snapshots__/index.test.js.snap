@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Input /> should render and match the snapshot 1`] = `
+<input
+  class="input__StyledInput-sc-10zxn30-0 glFmJb"
+/>
+`;
