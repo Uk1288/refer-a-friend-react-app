@@ -2,7 +2,7 @@
 
 exports[`<HomePage /> should render and match the snapshot 1`] = `
 <div
-  class="HomePage__ParentDiv-sc-1dwbuoi-0 jaZlZw"
+  class="HomePage__ParentDiv-sc-1dwbuoi-0 cKVHDd"
 >
   <h1
     class="header__StyledHeader-sc-1mu6x1k-0 griTSl"
@@ -40,7 +40,7 @@ exports[`<HomePage /> should render and match the snapshot 1`] = `
         class="refer-a-friend__StyledInputBox-sc-16r8705-1 Qzlag"
       >
         <input
-          class="input__StyledInput-sc-10zxn30-0 glFmJb"
+          class="input__StyledInput-sc-10zxn30-0 lkoULL"
           id="email"
           name="email"
           value=""

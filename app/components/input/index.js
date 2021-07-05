@@ -15,6 +15,9 @@ const StyledInput = styled.input`
   @media only screen and (min-width: 600px) {
     width: 496px;
   }
+  @media only screen and (max-width: 355px) {
+    width: 250px;
+  }
 `;
 
 export default StyledInput;

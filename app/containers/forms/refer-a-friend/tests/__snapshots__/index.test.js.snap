@@ -14,7 +14,7 @@ exports[`<ReferAFriendForm /> <ConnectedReferAFriendForm /> should render and ma
       class="refer-a-friend__StyledInputBox-sc-16r8705-1 Qzlag"
     >
       <input
-        class="input__StyledInput-sc-10zxn30-0 glFmJb"
+        class="input__StyledInput-sc-10zxn30-0 lkoULL"
         id="email"
         name="email"
         value=""

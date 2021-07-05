@@ -10,6 +10,9 @@ import uiSaga from '../../store/ui/ui.saga';
 
 const ParentDiv = styled.div`
   overflow: auto;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
 `;
 
 export default function App() {

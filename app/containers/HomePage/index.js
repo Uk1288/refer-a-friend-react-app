@@ -11,7 +11,7 @@ const ParentDiv = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  min-width: 367px;
+  min-width: 260px;
 `;
 
 export default function HomePage() {
